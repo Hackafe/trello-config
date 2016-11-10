@@ -28,5 +28,12 @@
       "празненство",
       "празнуване"
     ]
+  },
+  "-//meta": "collection of regexes to extract additional information for events",
+  "meta": {
+    "-//facebook": "link to facebook event",
+    "facebook": "((https?:)?//(www.)?facebook.com/events/d+)",
+    "-//frm": "link to frm.hackafe.org topic for the event",
+    "frm": "((https?:)?//frm.hackafe.org/t/[-a-zA-Z0-9]+/d+)"
   }
 }
