@@ -10,6 +10,9 @@
   "bugs": {
     "url": "https://github.com/hackafe/trello-config/issues"
   },
+  "devDependencies": {
+    "jlint": "^3.0.2"
+  },
   "engines": {
     "node": "*"
   },
@@ -19,11 +22,14 @@
   ],
   "license": "ISC",
   "main": "config.json",
+  "files": [
+    "config.json"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/hackafe/trello-config.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jlint --glob '**.json'"
   }
 }
