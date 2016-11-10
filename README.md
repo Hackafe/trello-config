@@ -28,6 +28,13 @@ JSON, with embedded comments following the pattern: `"-//field": "comment"`.
 This is to provide maximum compatibility with all the strict json parsers out
 there.
 
+## Helpful information
+
+* To get available events use `https://api.trello.com/1/boards/[config.boardId]/cards/visible`
+* To get label names use `https://api.trello.com/1/boards/[config.boardId]/labels`
+* To get card attachment use `https://api.trello.com/1/cards/[cardId]/attachments/[attachmentId]`
+
+
 ## License
 
 [ISC](LICENSE). Copyright (c) [Geno Rouspky](https://github.com/groupsky).
