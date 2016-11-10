@@ -1,0 +1,32 @@
+{
+  "-//boardId": "id of the Hackafe Events board",
+  "boardId": "GHda069L",
+  "-//blacklist": [
+    "regex expressions that blacklist labels based on name,",
+    "all matching must be case insensitive and unicode enabled"
+  ],
+  "blacklist": [
+    "вътреш(ен|н(а|о|и))",
+    "private"
+  ],
+  "-//categories": "list of regex expressions that match label name to category",
+  "categories": {
+    "-//course": "a course instance",
+    "course": [
+      "course",
+      "курс"
+    ],
+    "-//meetup": "a gathering of people that share common interest",
+    "meetup": [
+      "meetup",
+      "сбирк(а|и)"
+    ],
+    "-//party": "well, it's a party :)",
+    "party": [
+      "party",
+      "парти",
+      "празненство",
+      "празнуване"
+    ]
+  }
+}

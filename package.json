@@ -1,0 +1,29 @@
+{
+  "name": "hackafe-trello-config",
+  "description": "Hackafe Trello Configuration",
+  "version": "0.0.1",
+  "author": {
+    "email": "geno@roupsky.name",
+    "name": "Geno Roupsky",
+    "url": "https://github.com/groupsky"
+  },
+  "bugs": {
+    "url": "https://github.com/hackafe/trello-config/issues"
+  },
+  "engines": {
+    "node": "*"
+  },
+  "homepage": "http://trello-config.hackafe.org",
+  "keywords": [
+    "hackafe"
+  ],
+  "license": "ISC",
+  "main": "config.json",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hackafe/trello-config.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
